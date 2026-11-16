@@ -171,29 +171,13 @@ Q(next) = T ⊕ Q   (T Flip-Flop)
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="595" height="369" alt="image" src="https://github.com/user-attachments/assets/38290e4d-a813-4e0c-b891-68044c90623b" />
 
-## Viva-Voce Questions
 
-●	What is the difference between a latch and a flip-flop?
+<img width="1827" height="1011" alt="image" src="https://github.com/user-attachments/assets/adff5f88-3fbf-47bb-8504-da8ed0e8e64e" />
 
-●	Why is the D flip-flop also called a 'delay' element?
 
-●	How is a T flip-flop derived from a JK flip-flop?
+<img width="1805" height="912" alt="image" src="https://github.com/user-attachments/assets/dac5ef00-f4b3-4ea3-915f-845e82200638" />
 
-●	What is the characteristic equation of a T flip-flop, and what does it mean when T = 1?
-
-●	What is the difference between synchronous and asynchronous reset? Which one is used here?
-
-●	Why is posedge used in the sensitivity list, and what does 'posedge clk or posedge rst' achieve?
-
-●	What is the purpose of a Verilog testbench?
-
-●	Why is a VCD file generated, and what does $dumpvars(0, tb) do?
-
-●	How would you construct a T flip-flop using a D flip-flop and an XOR gate?
-
-●	How can a chain of T flip-flops be used to build an asynchronous binary counter?
 
 ## Result
 
